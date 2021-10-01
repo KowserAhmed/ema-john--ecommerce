@@ -24,7 +24,6 @@ function App(props) {
   console.log(loggedInUser);
   return (
     <UserContext.Provider value = {[loggedInUser ,setLoggedInUser]}> 
-    <h1>Email: {loggedInUser.email}</h1>
       <Router>
       <Header></Header>
         <Switch>
